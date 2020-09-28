@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBarActPosts"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:id="@+id/scrollViewActPosts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linearLayActPosts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+</FrameLayout>

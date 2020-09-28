@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBarActAccounts"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewEmptyAccountsList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Accounts yet!"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
+    <ScrollView
+        android:id="@+id/scrollViewActAccounts"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linearLayActAccounts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+</FrameLayout>
